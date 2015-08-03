@@ -1,0 +1,37 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>cc.herbert.maven</groupId>
+	<artifactId>super-pom</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>pom</packaging>
+	<name>herbert.cc - super POM</name>
+	<description>Maven Super POM for all projects of Benjamin Herbert (herbert.cc)</description>
+
+	<inceptionYear>2015</inceptionYear>
+
+	<organization>
+		<name>IT-Beratung - Benjamin Herbert</name>
+		<url>http://www.herbert.cc</url>
+	</organization>
+
+	<developers>
+		<developer>
+			<id>behe</id>
+			<name>Benjamin Herbert</name>
+			<email>benjamin@herbert.cc</email>
+			<roles>
+				<role>Lead</role>
+				<role>Committer</role>
+				<role></role>
+			</roles>
+		</developer>
+	</developers>
+
+	<properties>
+		<maven.compiler.target>1.8</maven.compiler.target>
+		<maven.compiler.source>1.8</maven.compiler.source>
+		<maven.compiler.testTarget>1.8</maven.compiler.testTarget>
+		<maven.compiler.testSource>1.8</maven.compiler.testSource>
+	</properties>
+</project>
